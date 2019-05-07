@@ -39,12 +39,7 @@ TEST_F(TestCountingGame, testCountOff){
 		//断言 执行CoutOff方法后返回的结果res应等于测试用例的预期结果
 		EXPECT_EQ(iter->second, res) << " 断言失败：当前输入原始数字为：" << iter->first;
 	}
-	 
-	
 
-	
-
-	
 }
 
 
